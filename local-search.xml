@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>PicGO+Typora</title>
+    <link href="/2020/12/07/PicGO-Typora/"/>
+    <url>/2020/12/07/PicGO-Typora/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Typora-PicGo"><a href="#Typora-PicGo" class="headerlink" title="Typora+PicGo"></a>Typora+PicGo</h1><p>最近在使用Typora记录学习过程，发现Typora很简洁，就是图片在本地引用时还好，如果要分享给其他人，或者转移到其他电脑上时，图片就不能顺利显示了，所以想到了图床。</p><p>刚好Typora偏好设置有上传服务。</p><p>开始选择了使用Picgo-2.2.2版本，但是不知道为啥，GitHub上传成功后，在Typora显示不出来图片，在网上搜索后，发现是GitHub网站的问题，索性换一个，但是就在后来发生了错误，现在卸载2.2.2版本，安装2.3.0-beta.3版本，提示安装已中止。。。</p><p><img src="https://github.com/Manchesterss/PhotoPicGo/BlogNote/takemistake.png" alt="image-20201207174151143"></p><p><img src="https://i.loli.net/2020/12/07/oK6AUdVeTxHNjB5.png" alt="image-20201207175343711"></p><p><img src="https://i.loli.net/2020/12/07/p5Tfj9D6d7HWVai.png" alt="image-20201207175605504"></p><p><img src="https://i.loli.net/2020/12/07/1akuKF2zUoIeEB9.jpg" alt="？"></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Typora+PicGo</title>
+    <link href="/2020/12/07/Typora+PicGo/"/>
+    <url>/2020/12/07/Typora+PicGo/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Typora-PicGo-jack-o-lantern"><a href="#Typora-PicGo-jack-o-lantern" class="headerlink" title="Typora+PicGo:jack_o_lantern:"></a>Typora+PicGo:jack_o_lantern:</h1><p>最近在使用Typora记录学习过程，发现Typora很简洁，就是图片在本地引用时还好，如果要分享给其他人，或者转移到其他电脑上时，图片就不能顺利显示了，所以想到了图床。</p><p>刚好Typora偏好设置有上传服务。</p><p>开始选择了使用Picgo-2.2.2版本，但是不知道为啥，GitHub上传成功后，在Typora显示不出来图片，在网上搜索后，发现是GitHub网站的问题，索性换一个，但是就在后来发生了错误，现在卸载2.2.2版本，安装2.3.0-beta.3版本，提示安装已中止。。。</p><p><img src="https://github.com/Manchesterss/PhotoPicGo/BlogNote/takemistake.png" alt="image-20201207174151143"></p><p><img src="https://i.loli.net/2020/12/07/oK6AUdVeTxHNjB5.png" alt="image-20201207175343711"></p><p><img src="https://i.loli.net/2020/12/07/p5Tfj9D6d7HWVai.png" alt="image-20201207175605504"></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>PHP数组</title>
+    <link href="/2020/10/23/php/"/>
+    <url>/2020/10/23/php/</url>
+    
+    <content type="html"><![CDATA[<hr><h2 id="Test！"><a href="#Test！" class="headerlink" title="Test！"></a>Test！</h2><h3 id="第4章-数组-p76"><a href="#第4章-数组-p76" class="headerlink" title="第4章 数组-p76"></a>第4章 数组-<code>p76</code></h3><h4 id="4-1初识数组"><a href="#4-1初识数组" class="headerlink" title="4.1初识数组"></a>4.1初识数组</h4><p>数组-线性结构</p><ul><li>索引数组</li><li>关联数组</li></ul><ol><li>数组的定义<ul><li>array()语言结构法</li><li>短数组定义法([])</li><li>遍历数组</li></ul></li></ol><h4 id="4-2数组的基本使用"><a href="#4-2数组的基本使用" class="headerlink" title="4.2数组的基本使用"></a>4.2数组的基本使用</h4><h4 id="4-3数组查找"><a href="#4-3数组查找" class="headerlink" title="4.3数组查找"></a>4.3数组查找</h4><h4 id="4-4数组排序"><a href="#4-4数组排序" class="headerlink" title="4.4数组排序"></a>4.4数组排序</h4><ol><li><p>冒泡排序</p><pre><code class="hljs php"><span class="hljs-keyword">for</span>($i=<span class="hljs-number">1</span>,$num=count($arr);$i&lt;$num;++$i)<span class="hljs-comment">//外层</span>&#123;<span class="hljs-keyword">for</span>($j=<span class="hljs-number">0</span>;$j&lt;$num-$i;++$j)<span class="hljs-comment">//内层</span>&#123;<span class="hljs-keyword">if</span>($arr[$j]&gt;$arr[$j+<span class="hljs-number">1</span>])&#123;$number=$arr[$j];$arr[$j]=$arr[$j+<span class="hljs-number">1</span>];$arr[$j+<span class="hljs-number">1</span>]=$number;&#125;&#125;&#125;</code></pre></li><li><p>简单选择排序</p></li><li><p>快速排序</p></li><li><p>插入排序（效率低）</p></li><li><pre><code class="php">for ($i = 0; $i &lt; $len-1; ++$i) &#123;        $cur=$arr[$i];        for ($j = $i+1; $j &lt; $len; ++$j) &#123;                         if ($arr[$j] &lt; $cur) &#123;                 $temp = $arr[$j];//temp=arr[01] temp=arr[02]                $arr[$j] = $cur;//arr[1]=cur=arr[00] arr[2]=cur=arr[00]                 $arr[$i] = $temp;//arr[0]=temp=arr[01] arr[0]=temp=arr[02]                 $cur=$temp;//arr[0]=arr[01] arr[0]=arr[02]             &#125;        &#125;    &#125;</code></pre></li></ol><h4 id="4-5数组的常用函数"><a href="#4-5数组的常用函数" class="headerlink" title="4.5数组的常用函数"></a>4.5数组的常用函数</h4><ol><li><p>指针操作函数</p></li><li><p>数组元素操作函数</p></li><li><p>排序函数</p></li><li><p>检索函数</p></li><li><p>其他数组函数</p><p>var_dump和print_r函数输出应该加上echo ‘<pre>',echo  '</pre>‘;//防止低版本识别不出来</p></li></ol><h4 id="4-6数组在字符串与函数中的应用-92"><a href="#4-6数组在字符串与函数中的应用-92" class="headerlink" title="4.6数组在字符串与函数中的应用-92"></a>4.6数组在字符串与函数中的应用-<code>92</code></h4><ol><li>字符串与数组的转换</li></ol><p><a href=""></a></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>PHP</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>软件测试计划与策略</title>
+    <link href="/2020/10/17/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E8%AE%A1%E5%88%92%E4%B8%8E%E7%AD%96%E7%95%A5/"/>
+    <url>/2020/10/17/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E8%AE%A1%E5%88%92%E4%B8%8E%E7%AD%96%E7%95%A5/</url>
+    
+    <content type="html"><![CDATA[<h3 id="软件测试计划与策略"><a href="#软件测试计划与策略" class="headerlink" title="软件测试计划与策略"></a>软件测试计划与策略</h3><h4 id="1-软件测试计划"><a href="#1-软件测试计划" class="headerlink" title="1.软件测试计划"></a>1.软件测试计划</h4><p>测试计划是对每个产品，或是对各个开发阶段的产品开展<strong>测试的策略</strong>。</p><ul><li>一个完整的测试计划应该包含以下几个方面-<code>P33</code><ul><li>对测试范围的界定</li><li>风险的确定</li><li>资源的规划</li><li>时间表的制定</li></ul></li><li>制定测试计划的原则-<code>P33</code><ul><li>制定测试计划应尽早开始</li><li>保持测试计划的灵活性</li><li>保持测试计划简洁和易读</li><li>尽量争取多渠道评审测试计划</li><li>计算测试计划的投入</li></ul></li><li>制定测试计划的步骤-<code>P34</code><ol><li>产品基本情况调研</li><li>测试需求说明</li><li>测试的策略和记录</li><li>测试资源配置</li><li>计划表</li><li>问题跟踪报告</li><li>测试计划评审</li></ol></li></ul><h4 id="2-软件测试策略"><a href="#2-软件测试策略" class="headerlink" title="2.软件测试策略"></a>2.软件测试策略</h4><ul><li>静态测试与动态测试-<code>p35</code><ul><li>静态测试<ol><li>代码检查</li><li>编码风格与规范</li><li>代码审查 <ol><li><em>数据引用错误</em></li><li><em>数据声明错误</em></li><li><em>计算错误</em></li><li><em>比较错误</em></li><li><em>控制流程错误</em></li><li><em>子程序参数错误</em></li><li><em>输出错误</em></li><li><em>其他检查</em> </li></ol></li><li>静态结构分析</li><li>代码质量度量<ul><li>功能性</li><li>可靠性</li><li>易用性</li><li>效率</li><li>可维护性</li><li>可移植性</li></ul></li></ol></li><li>动态测试<ol><li>单元测试</li><li>集成测试</li><li>系统测试</li><li>验收测试</li><li>回归测试</li></ol></li></ul></li><li>白盒测试与黑盒测试-<code>p37</code></li><li>软件测试分类与测试方法</li><li><img src="https://note.youdao.com/yws/api/personal/file/B23C1166A6204812B2427F20C0626778?method=download&shareKey=e12fda518d44bb07b20150e78ee95b6b" alt="img"></li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>软件测试技术</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>博弈论基础</title>
+    <link href="/2020/10/13/%E5%8D%9A%E5%BC%88%E8%AE%BA%E6%A6%82%E8%BF%B0/"/>
+    <url>/2020/10/13/%E5%8D%9A%E5%BC%88%E8%AE%BA%E6%A6%82%E8%BF%B0/</url>
+    
+    <content type="html"><![CDATA[<h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><p>博弈–是指在一定的<u>游戏规则</u>约束下，基于直接相互作用的环境条件，各参与人依据所掌握的信息，选择各自的策略（行动），以实现<u>利益最大化</u>的过程。<br>博弈的核心在于整体思维基础上的基础上的理性换位思考，用他人的得益去推测他人的策略（行动），从而选择最有利于自己的策略（行动）。</p><p> 纳什均衡：又称为非合作博弈均衡，是<a href="https://baike.baidu.com/item/%E5%8D%9A%E5%BC%88%E8%AE%BA/81545">博弈论</a>的一个重要术语，以<a href="https://baike.baidu.com/item/%E7%BA%A6%E7%BF%B0%C2%B7%E7%BA%B3%E4%BB%80/957881">约翰·纳什</a>命名。在一个博弈过程中，无论对方的策略选择如何，当事人一方都会选择某个确定的策略，则该策略被称作支配性策略。如果任意一位参与者在其他所有参与者的策略确定的情况下，其选择的策略是最优的，那么这个组合就被定义为纳什平衡。</p><h4 id="博弈的分类"><a href="#博弈的分类" class="headerlink" title="博弈的分类"></a>博弈的分类</h4><ul><li>合作博弈：参与者能够达成一种具有约束力的协议，在协议范围内选择有利于双方的策略。</li><li>非合作博弈：指参与者无法达成这样一种协议。</li><li>静态博弈：在博弈中，参与者同时选择，或虽非同时选择，但是在逻辑时间上是同时的。</li><li>动态博弈：在博弈中，参与者的行动没有先后顺序，且后行动者能够观察到先行动者的行动。</li><li>完全信息博弈：在博弈中，每个参与者对其他参与者的类型、策略空间及损益函数都有准确的信息<br>不完全信息博弈：总有一些信息不是所有参与者都知道的。</li></ul><table><thead><tr><th>~</th><th>静态</th><th>动态</th></tr></thead><tbody><tr><td>完全信息</td><td>完全信息静态博弈纳什均衡纳什（1950，1951）</td><td>完全信息动态博弈子博弈精炼纳什均衡泽尔腾（1965）</td></tr><tr><td>不完全信息</td><td>不完全信息静态博弈贝叶斯纳什均衡海萨尼（1967-1968）</td><td>不完全信息动态博弈精炼贝叶斯纳什均衡泽尔腾（1975）kreps和Wilson（1982）Fudenberg和Tirole(1991)</td></tr></tbody></table><ul><li>零和博弈：博弈前的损益总和与博弈后的损益总和相等</li><li>非零和博弈：博弈后的损益大于博弈前的损益总和（正和或负和）</li></ul><blockquote><p>不玩负和游戏，少玩零和游戏，多玩正和游戏</p></blockquote><p>课程地址：</p><p><a href="https://www.icourse163.org/course/ZJU-20001">浙江大学博弈论公开课</a></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>博弈论</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2020/10/13/hello-world/"/>
+    <url>/2020/10/13/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>C%23测试</title>
+    <link href="/2020/06/13/C%2523/"/>
+    <url>/2020/06/13/C%2523/</url>
+    
+    <content type="html"><![CDATA[<h4 id="1-编写一个C-控制作台应用程序，使之能够判断指定年份是否为闰年"><a href="#1-编写一个C-控制作台应用程序，使之能够判断指定年份是否为闰年" class="headerlink" title="1.编写一个C#控制作台应用程序，使之能够判断指定年份是否为闰年"></a>1.编写一个C#控制作台应用程序，使之能够判断指定年份是否为闰年</h4><pre><code class="hljs C#"><span class="hljs-keyword">using</span> System;<span class="hljs-keyword">using</span> System.Collections.Generic;<span class="hljs-keyword">using</span> System.Linq;<span class="hljs-keyword">using</span> System.Text;<span class="hljs-keyword">namespace</span> <span class="hljs-title">Test</span>&#123;    <span class="hljs-keyword">class</span> <span class="hljs-title">question1</span>    &#123;        <span class="hljs-function"><span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-keyword">string</span>[] args</span>)</span><span class="hljs-function"></span>        &#123;            <span class="hljs-keyword">int</span> year;            Console.WriteLine(<span class="hljs-string">&quot;请输入一个年份:&quot;</span>);            <span class="hljs-keyword">string</span> Year = Console.ReadLine();            year = Convert.ToInt32(Year);            <span class="hljs-keyword">if</span> (year % <span class="hljs-number">4</span> == <span class="hljs-number">0</span> &amp;&amp; year % <span class="hljs-number">100</span> != <span class="hljs-number">0</span> || year % <span class="hljs-number">400</span> == <span class="hljs-number">0</span>)                Console.WriteLine(year + <span class="hljs-string">&quot;年是闰年！&quot;</span>);            <span class="hljs-keyword">else</span>                Console.WriteLine(year + <span class="hljs-string">&quot;年不是闰年！&quot;</span>);            Console.Read();        &#125;    &#125;&#125;</code></pre><hr><h4 id="2-判断十个学生的成绩-，然后判断学生的成绩是优、良、中、及格、不及格"><a href="#2-判断十个学生的成绩-，然后判断学生的成绩是优、良、中、及格、不及格" class="headerlink" title="2.判断十个学生的成绩,，然后判断学生的成绩是优、良、中、及格、不及格"></a>2.判断十个学生的成绩,，然后判断学生的成绩是优、良、中、及格、不及格</h4><pre><code class="hljs C#"><span class="hljs-keyword">using</span> System;<span class="hljs-keyword">using</span> System.Collections.Generic;<span class="hljs-keyword">using</span> System.Linq;<span class="hljs-keyword">using</span> System.Text;<span class="hljs-keyword">namespace</span> <span class="hljs-title">Test</span>&#123;    <span class="hljs-keyword">class</span> <span class="hljs-title">question2</span>    &#123;        <span class="hljs-function"><span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-keyword">string</span>[] args</span>)</span><span class="hljs-function"></span>        &#123;            <span class="hljs-keyword">double</span>[] Students = <span class="hljs-keyword">new</span> <span class="hljs-keyword">double</span>[<span class="hljs-number">10</span>];            <span class="hljs-keyword">string</span>[] Studentresult = <span class="hljs-keyword">new</span> <span class="hljs-keyword">string</span>[<span class="hljs-number">10</span>];            Console.WriteLine(<span class="hljs-string">&quot;请输入10个学生的成绩[0-100]&quot;</span>);            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i&lt; <span class="hljs-number">10</span>; i++)            &#123;               Studentresult[i] = Console.ReadLine();             &#125;            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">10</span>; i++)            &#123;                Students[i] = <span class="hljs-keyword">double</span>.Parse(Studentresult[i]);                <span class="hljs-keyword">double</span> num = Students[i] + <span class="hljs-number">0.5</span>;                <span class="hljs-keyword">if</span> (num &gt;= <span class="hljs-number">90</span>)                    Console.Write(Students[i] + <span class="hljs-string">&quot;成绩优 &quot;</span>);                <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (num &gt;= <span class="hljs-number">80</span>)                    Console.Write(Students[i] + <span class="hljs-string">&quot;成绩良 &quot;</span>);                <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (num &gt;= <span class="hljs-number">70</span>)                    Console.Write(Students[i] + <span class="hljs-string">&quot;成绩中 &quot;</span>);                <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (num &gt;= <span class="hljs-number">60</span>)                    Console.Write(Students[i] + <span class="hljs-string">&quot;成绩及格 &quot;</span>);                <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (num &lt; <span class="hljs-number">60</span>)                    Console.Write(Students[i] + <span class="hljs-string">&quot;成绩不及格 &quot;</span>);                <span class="hljs-keyword">else</span>                    Console.WriteLine(<span class="hljs-string">&quot;成绩输入有误！&quot;</span>);            &#125;                Console.Read();        &#125;    &#125;&#125;</code></pre>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>C%23</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
